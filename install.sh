@@ -8,7 +8,6 @@ echo ""
 echo "Install underway..."
 
 sudo pacman -S neofetch
-sudo pacman -S git
 
 git clone https://github.com/Chick2D/neofetch-themes/
 cat neofetch-themes/normal/ozozfetch > ~/.config/neofetch/config.conf
